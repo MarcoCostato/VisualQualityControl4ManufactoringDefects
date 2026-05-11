@@ -252,4 +252,4 @@ with gr.Blocks(title="MVTec Anomaly Detection") as demo:
 
     gr.Markdown("**Note:** PatchCore is more precise. Autoencoder is faster on CPU.")
 
-demo.launch(share = True)
+demo.launch()
