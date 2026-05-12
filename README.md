@@ -10,6 +10,7 @@ Unsupervised anomaly detection on industrial textures.
 Visual quality control is one of the most common applications of computer vision in manufacturing. A camera inspects items on a production line and flags defective ones before they can reach a customer. A well-run factory produces mostly good parts, therefore defects samples are rare and (possibly) highly different from one another, making supervised learning challenging.
 
 To address this constraint, this project leverages unsupervised learning to build a model what a good part is using only normal samples and uses it at inference time to detect anomalies by identifying samples that deviate from the learned model, either in pixel space (AutoEncoder) or in feature space (PatchCore)
+
 ---
 ## Dataset
 The **MVTec Anomaly Detection** dataset is a benchmark for unsupervised defect detection containing 15 categories of industrial objects and textures.
